@@ -1,4 +1,4 @@
-const hello = () => {
-  console.log('hello');
-  }
-  hello();
+const welcomeUser = user => {
+  console.log(`Hi ${user}`);
+}
+welcomeUser('Mark');
